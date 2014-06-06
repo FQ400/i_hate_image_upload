@@ -5,7 +5,9 @@ Everytime I have to do an image upload something goes wrong.
 
 How to setup the project on Mac:
 
-1. git clone git@github.com:FQ400/i_hate_image_upload.git
+1. checkout repository:
+
+    git clone git@github.com:FQ400/i_hate_image_upload.git
 
 2. install nodejs using brew package manager:
 
