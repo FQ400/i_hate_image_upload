@@ -1,0 +1,31 @@
+{
+    "name": "i_hate_image_upload",
+    "version": "0.0.0",
+    "description": "the server for i_hate_image_upload",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/FQ400/i_hate_image_upload.git"
+    },
+    "keywords": [
+        "image",
+        "upload"
+    ],
+    "author": "Carsten Lamm",
+    "license": "Beerware",
+    "bugs": {
+        "url": "https://github.com/FQ400/i_hate_image_upload/issues"
+    },
+    "dependencies": {
+
+    },
+    "devDependencies": {
+        "express": "3.x",
+        "gulp-help": "0.1.7",
+        "gulp-shell": "0.2.5"
+    }
+}

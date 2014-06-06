@@ -1,4 +1,4 @@
 i_hate_image_upload
 ===================
 
-Examples to upload images ...
+Everytime I have to do an image upload something goes wrong.
