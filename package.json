@@ -2,7 +2,6 @@
     "name": "i_hate_image_upload",
     "version": "0.0.0",
     "description": "the server for i_hate_image_upload",
-    "main": "index.js",
     "private": true,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
