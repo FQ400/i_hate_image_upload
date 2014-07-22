@@ -24,6 +24,7 @@
     },
     "devDependencies": {
         "express": "3.x",
+        "busboy": "0.2.8",
         "gulp": "3.7.0",
         "gulp-help": "0.1.7",
         "gulp-shell": "0.2.5"
