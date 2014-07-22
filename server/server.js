@@ -22,7 +22,7 @@ app.post('/upload_file_multipart', function (req, res) {
 
     var busboy = new Busboy({ headers: req.headers });
 
-    busboy.on('file', function(fieldname, file, filename, encoding, mimetype) {
+    busboy.on('file', function (fieldname, file, filename) {
         console.log('receiving ...', fieldname, filename);
 
         var saveTo = path.join(__dirname, '/public/upload', path.basename(filename));
@@ -34,9 +34,9 @@ app.post('/upload_file_multipart', function (req, res) {
             var path = fstream.path.split('/server/public/')[1];
 
             res.writeHead(200, { 'Connection': 'close' });
-            var link = util.format('<a href="%s">Works. Your file: %s<a/>', path, filename)
+            var link = util.format('<a href="%s">Works. Your file: %s<a/>', path, filename);
             res.end(link);
-        })
+        });
     });
 
     return req.pipe(busboy);
